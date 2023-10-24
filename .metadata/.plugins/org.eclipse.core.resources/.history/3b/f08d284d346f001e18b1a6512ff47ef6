@@ -1,0 +1,10 @@
+package homework_java4.middle;
+
+import java.util.Scanner;
+
+public class test2 {
+	public void main (String[] args) {
+		Scanner sc = new Scanner();
+		
+	}
+}

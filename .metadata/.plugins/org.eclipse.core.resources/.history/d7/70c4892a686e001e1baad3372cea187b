@@ -1,0 +1,18 @@
+package homework_java3.advanced2;
+
+public class FullTime extends emproyee{
+	int bonus;
+	
+	public FullTime()	{
+		bonus = pay / 12 + bonus / 12;
+	}
+	public FullTime(int eno, String name, int pay, int type)	{
+		super.showEmployeeInfo();
+	}
+	@Override
+	public void getMonthPay() {
+		// TODO Auto-generated method stub
+		System.out.println("해당 사원의 월급은 " + bonus + " 입니다.");
+		
+	}
+}

@@ -1,0 +1,17 @@
+package homework_firstweek;
+
+import java.nio.file.FileSystemNotFoundException;
+
+public class Advance_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		1. 삼항 조건 연산자를 이용하여 String str = "dBEfIZ"; 를 이용하여 ajEfcC 출력하세요.
+		
+		String str = "dBEfIZ";
+		
+		System.out.println(str);
+		
+	}
+
+}

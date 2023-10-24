@@ -1,0 +1,17 @@
+package chap11_abstraction.tv;
+
+public class SamsungTv extends TvMain	{
+	
+	public void powerOn()	{
+		System.out.println("제조사 : 삼성");
+		super.powerOn();
+	}
+	public void powerOff()	{
+		System.out.println("제조사 : 삼성");
+		super.powerOff();
+	}
+	public void operate(int channel)	{
+		System.out.println("제조사 : 삼성");
+		super.operate(channel);
+	}
+}

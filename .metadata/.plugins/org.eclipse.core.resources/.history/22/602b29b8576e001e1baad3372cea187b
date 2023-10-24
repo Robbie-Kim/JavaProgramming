@@ -1,0 +1,21 @@
+package homework_java3.basic2;
+
+public class Parnet {
+	String firstname;
+	String bloodtype;
+	int height;
+	String skincolor;
+	
+	public Parnet()	{
+		
+	}
+	
+	public Parnet(String firstname, String bloodtype, int height, String skincolor) {
+		this.firstname = firstname;
+		this.bloodtype = bloodtype;
+		this.height = height;
+		this.skincolor = skincolor;
+	}
+	
+	
+}

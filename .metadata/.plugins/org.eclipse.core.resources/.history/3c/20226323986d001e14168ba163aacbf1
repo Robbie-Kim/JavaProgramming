@@ -1,0 +1,8 @@
+package homework_java2.basic;
+
+public class StudentProperty {
+	// 학생의 속성
+	public String name;
+	public String number;
+	public String major;
+}

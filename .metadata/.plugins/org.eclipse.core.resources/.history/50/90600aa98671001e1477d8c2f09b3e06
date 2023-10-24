@@ -1,0 +1,30 @@
+package loop.question5;
+
+
+// (입력받은 수 / 4 ) * long 이 출력되도록 만들자.
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int userNum = sc.nextInt();								// 입력받은 수 저장
+		int arrNum = userNum/4;									// 입력받은 수를 /4 해줄 정수 선언
+		String [] arr = new String[arrNum];						// 입력받은 수 만큼 받아서 long 을 담아둘 문자열 선언
+		for (int i = 0; i <= arrNum; i++)	{					// for 반복문 시작
+			
+			arr [i] = "long";									// arr i 에다 long 값 입력
+//			System.out.println(arr[i] + "int");
+		}
+		
+		for (int j = 0; j <= arrNum; j++)	{
+//			arr[j] = 
+			System.out.println(arr[j] + " int");
+		}
+		
+	}
+
+}

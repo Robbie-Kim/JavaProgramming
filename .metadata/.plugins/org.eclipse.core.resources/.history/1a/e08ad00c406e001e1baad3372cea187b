@@ -1,0 +1,19 @@
+package chap10_polymorphism.tv;
+
+public class LgTv extends Tv{
+	public void powerOn()	{
+		System.out.println("제조사 : 엘지");
+		//부모클래스의 powerOn 메소드 호출 == Tv 클래스의 powerOn() 메소드 실
+		super.powerOn();
+	}
+	
+	public void powerOff()	{
+		System.out.println("제조사 : 엘지");
+		super.powerOff();
+	}
+	
+	public void operate(int channel)	{
+		System.out.println("제조사 : 엘지");
+		super.operate(channel);
+	}
+}

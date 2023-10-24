@@ -1,0 +1,36 @@
+package chap04_controlstatement;
+import java.util.*;
+public class _10_Continue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 숫자 2와 9만 입력할 수 있고 다른 숫자를 입력하였을경우 다시 되돌아가는 루프 구
+		Scanner sc = new Scanner(System.in);
+		
+		while(true)	{
+			System.out.println("2부터 9 사이의 숫자를 입력하세요. 0은 종료.");
+			
+			int userNum = sc.nextInt();
+			
+			System.out.println("입력하신 숫자는 " + userNum + "입니다.");
+			
+			if (userNum <= 1)	{
+				System.out.println("다시 입력해 주십시오.");
+				continue;	}
+				else if (userNum >= 10)	{
+				System.out.println("다시 입력해 주십시오.");
+				continue;	}
+				
+			if (userNum == 0)	{
+				System.out.println("종료합니다.");
+				
+				break;
+			}
+				
+			}
+			
+			
+			
+			
+		}
+}

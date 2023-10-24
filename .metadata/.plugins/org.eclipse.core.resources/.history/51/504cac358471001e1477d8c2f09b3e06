@@ -1,0 +1,21 @@
+package loop.question5;
+
+
+// (입력받은 수 / 4 ) * long 이 출력되도록 만들자.
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int n;										// 입력받은 수 저장
+		String ln = "long";
+		
+		
+		
+	}
+
+}

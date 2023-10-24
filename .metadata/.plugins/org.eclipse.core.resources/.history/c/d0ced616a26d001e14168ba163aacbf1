@@ -1,0 +1,12 @@
+package homework_java2.basic2;
+// 도서의 제목, 저자, 출판사, 가격 정보를 출력
+public class Printer {
+	BookInfo bookinfo = new BookInfo();
+	
+	public void bookInfo()	{
+		System.out.println(title);
+		System.out.println();
+		System.out.println();
+		System.out.println();		
+	}
+}

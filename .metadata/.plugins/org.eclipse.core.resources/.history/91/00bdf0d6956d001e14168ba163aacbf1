@@ -1,0 +1,9 @@
+package homework_java2;
+
+public class StudentInfo {
+	StudentInfo sInfo;
+	
+	sInfo = new Studentinfo();
+	
+	
+}

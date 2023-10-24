@@ -1,0 +1,22 @@
+package homework_java3.advanced2;
+
+public class FullTime extends Emproyee{
+	int bonus;
+	
+	public FullTime(int eno, String name, int pay, int bonus)	{
+		super.showEmployeeInfo();
+		this.type = 1;
+		this.bonus = bonus;
+	}
+	@Override
+	public double getMonthPay() {
+		// TODO Auto-generated method stub
+		return (pay / 12.0) + (bonus / 12.0);
+	}
+	@Override
+	public void showEmployeeInfo()	{
+		super.showEmployeeInfo();
+	}
+		
+	}
+}

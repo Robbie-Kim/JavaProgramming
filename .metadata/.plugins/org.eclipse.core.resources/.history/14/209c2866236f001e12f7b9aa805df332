@@ -1,0 +1,5 @@
+package homework_java4.basic1;
+
+public interface ElectronicCar {
+
+}

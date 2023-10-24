@@ -1,0 +1,24 @@
+package homework_java3.extra;
+
+public class InfoSaver {
+	int eno;
+	String name;
+	int pay;
+	int type;
+	
+	public Emproyee ()	{
+		
+	}
+	
+	public Emproyee (int eno, String name, int pay,
+					  int bonus, int hireYear, int index,
+					  int workDay)	{
+		this.eno = eno;
+		this.name = name;
+		this.pay = pay;
+
+	}
+	
+	
+	
+}

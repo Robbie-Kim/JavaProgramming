@@ -1,0 +1,17 @@
+package chap06_method;
+
+import chap06_method.calc.ParameterCaclulator;
+
+public class _03_Parameter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ParameterCaclulator pcalc = new ParameterCaclulator();
+		
+		// 1. 메소드의 사용은 항상 정의된 형태와 동일하게 호출한다.
+		pcalc.add(10, 20);
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package homework_java2.basic1;
+import homework_java2.basic1.StudentInfo;
+public class Printer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 
+		StudentInfo studentinfo = new StudentInfo();
+		
+		System.out.println(studentinfo.name);
+		System.out.println(studentinfo.major);
+		System.out.println(studentinfo.number);
+	}
+
+}

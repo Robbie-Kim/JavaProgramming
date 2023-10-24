@@ -1,0 +1,10 @@
+package homework_java2.basic;
+
+public class InfoPrinter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

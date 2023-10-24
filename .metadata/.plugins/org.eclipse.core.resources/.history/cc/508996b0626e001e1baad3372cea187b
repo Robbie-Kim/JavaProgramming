@@ -1,0 +1,23 @@
+package homework_java3.advanced2;
+
+public abstract class emproyee {
+	int eno;				// 사번
+	String name;
+	int pay;
+	int type;
+	
+	public emproyee()	{
+		
+	}
+	public emproyee (int eno, String name, int pay) {
+		this.eno = eno;
+		this.name = name;
+		this.pay = pay;
+	}
+	public void showEmployeeInfo()	{
+		System.out.println("사번은 " + eno + " 입니다.");
+	}
+	
+	public abstract double getMonthPay();
+	
+}

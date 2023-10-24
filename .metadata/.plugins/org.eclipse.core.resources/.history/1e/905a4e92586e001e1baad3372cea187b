@@ -1,0 +1,23 @@
+package homework_java3.basic2;
+
+public class Parent {
+	String firstname;
+	String bloodtype;
+	int height;
+	String skincolor;
+	
+	public Parent()	{
+		
+	}
+	
+	public Parent(String firstname, String bloodtype, int height, String skincolor) {
+		this.firstname = firstname;
+		this.bloodtype = bloodtype;
+		this.height = height;
+		this.skincolor = skincolor;
+	}
+	public void parent()	{
+		
+	}
+	
+}

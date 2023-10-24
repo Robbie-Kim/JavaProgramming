@@ -1,0 +1,19 @@
+package homework_java2.middle;
+
+public class Add {
+	// 1. int 타입의 a, b 필드 값
+	int a, b;
+	
+	// 2. void setValue(int a, int b) : 매개변수로 필드 초기화
+	public void setValue (int a, int b)	{
+		
+	}
+	public int add (int a, int b) {
+		return a + b;
+	}
+	public int calculate()	{
+		return System.out.println(a + b);
+	}
+	
+	// int calculate() : 해당 목적에 맞는 연산을 실행하고 그 결과를 리턴합니다.
+}

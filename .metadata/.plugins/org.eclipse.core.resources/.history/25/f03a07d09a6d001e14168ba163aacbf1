@@ -1,0 +1,15 @@
+package homework_java2.basic2;
+
+public class BookInfo {
+	// 도서의 제목, 저자, 출판사, 가격 속성으로 저장
+	public String title;
+	public String writter;
+	public String company;
+	public int price;
+	
+	// 도서의 정보 저장
+	public BookInfo()	{
+		this.title = title;
+		this.writter = 
+	}
+}

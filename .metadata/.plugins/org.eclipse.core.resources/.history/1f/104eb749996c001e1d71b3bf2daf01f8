@@ -1,0 +1,31 @@
+package conditional;
+
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		
+		int h, m, mm;
+		h = in.nextInt();
+		m = in.nextInt();
+		mm = in.nextInt();
+		
+		h += mm / 60;
+		m += mm % 60;
+		
+		if (m >= 60)	{
+			h += 1;
+			m -= 60;
+		}
+		
+		if (h >= 24)	{
+			h -= 24;
+		}
+		
+		System.out.println(h + " " + m);
+
+		}
+		
+	}

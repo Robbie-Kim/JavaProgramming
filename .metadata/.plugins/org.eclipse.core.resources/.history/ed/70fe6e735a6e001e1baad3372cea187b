@@ -1,0 +1,20 @@
+package homework_java3.basic2;
+
+public class ChildA extends Parent {
+	
+	String name;
+	
+	public ChildA()	{
+		
+	}
+	
+	public ChildA (String name)	{
+		this.name = name;
+	}
+	
+//	public void firstname() {
+//		super.firstname();
+//	}
+	
+}
+

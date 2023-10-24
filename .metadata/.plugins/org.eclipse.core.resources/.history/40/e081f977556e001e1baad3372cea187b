@@ -1,0 +1,19 @@
+package homework_java3.basic1;
+
+public class Cats extends Mammals{
+	
+	int age;			// 수명
+	int num;			// 개체수
+	
+	
+	public Cats()	{
+		
+	}
+	
+	public Cats(int age, int num)	{
+		this.age = age;
+		this.num = num;
+	}
+	
+	public void 
+}

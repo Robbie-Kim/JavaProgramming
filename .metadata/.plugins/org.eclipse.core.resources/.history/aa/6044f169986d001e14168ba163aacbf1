@@ -1,0 +1,14 @@
+package homework_java2.basic;
+// 학생의 정보를 저장하는 메소
+public class StudentInfo {
+	// 학생의 속성
+	public String name;
+	public String number;
+	public String major;
+	
+	// 학생의 정보
+	public void studentInfo() {
+		
+	}
+	
+}

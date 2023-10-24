@@ -1,0 +1,14 @@
+package homework_java4.middle;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "가나다";
+		
+		int i = str.length();
+		
+		System.out.println(i);
+	}
+
+}

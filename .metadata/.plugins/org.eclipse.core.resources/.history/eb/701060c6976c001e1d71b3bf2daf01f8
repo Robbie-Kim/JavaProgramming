@@ -1,0 +1,34 @@
+package conditional;
+
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int currentH = in.nextInt();
+		int currentM = in.nextInt();
+		
+		int cookM = in.nextInt();
+		
+		int cookResultTime = currentM + cookM;
+		int resultTimeH;
+		int resultTimeM;
+		
+		if (cookResultTime >= 60)	{
+			resultTimeM = (currentM + cookM) - 60;
+			resultTimeH = currentH + (60 / (cookResultTime));
+		}	else	{
+			resultTimeM = currentM + cookM;
+			resultTimeH = currentH;
+		}
+		
+		System.out.println(resultTimeH + " " + resultTimeM);
+		
+		
+		
+		
+		
+		}
+		
+	}
